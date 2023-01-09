@@ -14,7 +14,7 @@ import Link from 'next/link';
   import React from 'react'
   
   export default function Profile({ name, followers, following,  login, bio, html_url, img }) {
-    console.log(html_url);
+    console.log(img);
     return (
       <Center py={6}>
         <Box
